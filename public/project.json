@@ -1,0 +1,36 @@
+[
+    {
+      "_id": 1,
+      "name": "Computer Manufacture",
+      "sortDes":[
+          "By using this website you can buy the product of your choice and at the same time you can buy many products.",
+          "Admin Make will allow other admins and admins to delete users if they wish."
+      ],
+      "img":["https://i.ibb.co/7RYmjPD/project1.png",
+        "https://i.ibb.co/7RYmjPD/project1.png",
+        "https://i.ibb.co/7RYmjPD/project1.png"]
+    },
+    {
+      "_id": 2,
+      "name": "Computer Manufacture",
+      "sortDes":[
+          "By using this website you can buy the product of your choice and at the same time you can buy many products.",
+          "Admin Make will allow other admins and admins to delete users if they wish."
+      ],
+      "img":["https://i.ibb.co/7RYmjPD/project1.png",
+        "https://i.ibb.co/7RYmjPD/project1.png",
+        "https://i.ibb.co/7RYmjPD/project1.png"]
+    },
+    {
+      "_id": 3,
+      "name": "Computer Manufacture",
+      "sortDes":[
+          "By using this website you can buy the product of your choice and at the same time you can buy many products.",
+          "Admin Make will allow other admins and admins to delete users if they wish."
+      ],
+      "img":["https://i.ibb.co/7RYmjPD/project1.png",
+        "https://i.ibb.co/7RYmjPD/project1.png",
+        "https://i.ibb.co/7RYmjPD/project1.png"]
+    }
+    
+  ]

@@ -1,8 +1,8 @@
 import React from 'react';
+import contuct from '../../src/images/contact.png';
 
-import contuct from "../../images/contact.png";
 
-const Contuct = () => {
+const ContuctUs = () => {
     return (
         <div  className='grid sm:grid-cols-1 gap-5 lg:grid-cols-2 px-16 py-10'>
             <div>
@@ -60,4 +60,4 @@ const Contuct = () => {
     );
 };
 
-export default Contuct;
+export default ContuctUs;
