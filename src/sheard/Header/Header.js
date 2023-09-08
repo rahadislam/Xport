@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../images/logo.gif';
 
 const Header = () => {
     return (
@@ -16,7 +17,9 @@ const Header = () => {
                         <li><Link to="/about">About us</Link></li>
                     </ul>
                 </div>
-                <Link to="/home" class="btn btn-ghost normal-case text-xl">Protfolio</Link>
+{/*                 
+                    <img src={logo} className='w-20 h-20'></img> */}
+               
             </div>
             <div class="navbar-end hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
