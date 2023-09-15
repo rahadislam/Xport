@@ -11,7 +11,7 @@ import About from './pages/About/About';
 
 function App() {
   return (
-    <div className='px-8'>
+    <div className='lg:px-8'>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>

@@ -10,12 +10,12 @@ const Bannar = () => {
         <div class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div className=''>
-                    <img src={profile} class="h-80 w-80 mx-auto  rounded-full" />
+                    <img src={profile} class="h-60 w-60 lg:h-80 lg:w-80 mx-auto  rounded-full" />
                 </div>
 
-                <div className='w-2/3'>
-                    <h1 class=" text-5xl font-bold">Hi I Am Rahad Islam</h1>
-                    <p class="py-6 w-10/12 text-sm text-slate-600 text-justify ">
+                <div className='lg:w-2/3'>
+                    <h1 class="text-2xl lg:text-5xl font-container">Hi I Am Rahad Islam</h1>
+                    <p class="py-6 lg:w-10/12 text-sm text-slate-600 font-medium text-justify ">
                         I'm a passionate web developer with a strong background in both front-end and back-end technologies. I thrive on creating user-friendly, interactive, and efficient web applications that solve real-world problems. I'm constantly exploring new technologies and staying updated with industry trends. I believe in clean code, best practices, and creating delightful user experiences.</p>
                     <div className='pb-5 flex items-center gap-x-5'>
                     <a href='https://www.facebook.com/rahadislamxx' target="_blank">
@@ -35,7 +35,7 @@ const Bannar = () => {
                        
                        
                     </div>
-                    <a href='https://drive.google.com/file/d/1pb_jRlZv7Zk4Kc8RBFEe77dx0cn3pyy9/view?usp=sharing' class="btn btn-primary bg-black border-transparent text-white" target="_blank">View Resume</a>
+                    <a href='https://drive.google.com/file/d/1pb_jRlZv7Zk4Kc8RBFEe77dx0cn3pyy9/view?usp=sharing' class="btn btn-xs sm:btn-sm md:btn-md lg:btn-md text-xs bg-black border-transparent text-white font-container" target="_blank">View Resume</a>
                 </div>
             </div>
         </div>
