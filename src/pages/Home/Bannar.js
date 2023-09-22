@@ -14,9 +14,9 @@ const Bannar = () => {
                 </div>
 
                 <div className='lg:w-2/3'>
-                    <h1 class="text-2xl lg:text-5xl font-container">Hi I Am Rahad Islam</h1>
+                    <h1 class="text-2xl lg:text-5xl font-container">Hello there! I'm Rahad,</h1>
                     <p class="py-6 lg:w-10/12 text-sm text-slate-600 font-medium text-justify ">
-                        I'm a passionate web developer with a strong background in both front-end and back-end technologies. I thrive on creating user-friendly, interactive, and efficient web applications that solve real-world problems. I'm constantly exploring new technologies and staying updated with industry trends. I believe in clean code, best practices, and creating delightful user experiences.</p>
+                     Your dedicated web developer on a mission to turn your digital dreams into reality. With a passion for coding and a knack for creativity, I'm here to build not just websites but experiences.Take a look at some of my recent projects to see my work in action. From crafting visually stunning landing pages to developing complex web applications, each project showcases my dedication to delivering excellence.</p>
                     <div className='pb-5 flex items-center gap-x-5'>
                     <a href='https://www.facebook.com/rahadislamxx' target="_blank">
                     <BsFacebook className='text-4xl text-sky-700 animate-bounce'></BsFacebook>

@@ -1,14 +1,14 @@
 import React from 'react';
-import about from '../../images/informative.png';
+import about from '../../images/Podcast.png';
 
 const About = () => {
     return (
-        <div class="hero min-h-screen">
+        <div class="hero min-h-screen" >
             <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={about} class="w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+                <img src={about} class="w-3/4 lg:max-w-sm " />
                 <div>
-                    <h1 class="text-5xl font-bold">About Me</h1>
-                    <p class="py-6">I am a Junior Web developer. I prefer to work with Javascript, React, and Node. I have previously worked on PHP, data structures and algorithms, and various web development projects, but have inexperience working on customizing WordPress themes. I work on web development, the purpose of working on web development is to create new websites and make people's daily lives easier It can be used to develop various e-commerce sites and training center sites, etc..</p>
+                <h1 className='text-3xl  text-center  font-container lg:w-2/3'>About Me</h1>
+                    <p class="py-6 lg:w-9/12 text-sm text-slate-600 font-medium text-justify "> I'm a passionate web developer with a strong background in both front-end and back-end technologies. I thrive on creating user-friendly, interactive, and efficient web applications that solve real-world problems. I'm constantly exploring new technologies and staying updated with industry trends. I believe in clean code, best practices, and creating delightful user experiences. My work is guided by a commitment to accessibility, inclusivity, and a sustainable web. I believe in creating digital spaces that everyone can access and enjoy, and I strive to minimize our ecological footprint in the digital realm.</p>
                     
                 </div>
             </div>

@@ -11,11 +11,17 @@ const Home = () => {
     return (
         <div>
             <Bannar></Bannar>
-            <h1 className='text-3xl  text-center py-5 font-container'>My project</h1>
+            <h1 className='text-3xl  text-center py-5 font-container'>My Project</h1>
             <Project></Project>
-            <h1 className='text-3xl font-bold text-center py-5'>Contuct Me</h1>
+            <div className='about_bg'>
+            <h1 className='text-3xl text-white  text-center pt-10 font-container'>Contact Me</h1>
             <ContuctUs></ContuctUs>
-            <About></About>
+            </div>
+           <div>
+          
+           <About></About>
+           </div>
+           
             <Footer></Footer>
         </div>
     );

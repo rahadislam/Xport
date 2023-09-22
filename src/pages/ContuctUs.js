@@ -1,5 +1,5 @@
 import React from 'react';
-import contuct from '../../src/images/contact.png';
+import contuct from '../../src/images/Community.png';
 
 
 const ContuctUs = () => {
@@ -8,27 +8,13 @@ const ContuctUs = () => {
             <div>
                 <img src={contuct} alt=""  className='w-3/4 lg:w-3/4 mx-auto'/>
             </div>
-            <div className="card w-72 lg:w-96 bg-base-100 shadow-xl">
+            <div className="card  mx-auto w-72 lg:w-96 mt-10">
                 <div className="card-body">
                    
                     <form >
-
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
-                                <span className="label-text">Name</span>
-                            </label>
-                            <input
-                                type="text"
-                                placeholder="Your Name"
-                                className="input input-bordered w-full max-w-xs"
-                                
-                            />
-                            
-                        </div>
-
-                        <div className="form-control w-full max-w-xs">
-                            <label className="label">
-                                <span className="label-text">Email</span>
+                                <span className="label-text font-container">Email:</span>
                             </label>
                             <input
                                 type="email"
@@ -40,18 +26,18 @@ const ContuctUs = () => {
                         </div>
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
-                                <span className="label-text">Description</span>
+                                <span className="label-text font-container">Description</span>
                             </label>
                             <textarea
                                 type="text"
                                 placeholder="Description"
-                                className="input input-bordered w-full max-w-xs"
+                                className="input input-bordered w-full max-w-xs h-32"
                                 
                             />
                             
                         </div>
                         <br />
-                        <input className='btn btn-primary w-full max-w-xs text-white' type="submit" value="Contuct us" />
+                        <input className='btn btn-xs sm:btn-sm md:btn-md lg:btn-md text-xs bg-black border-transparent text-white font-container' type="submit" value="Contact Us" />
                     </form>
                    
                 </div>
