@@ -7,7 +7,7 @@ import { AiFillCheckCircle } from 'react-icons/ai';
 
 const Project = () => {
     return (
-        <div className='grid grid-cols-1 py-5 container mx-auto px-10 lg:grid-cols-3 lg:gap-2 lg:px-0'>
+        <div className='grid grid-cols-1 py-5 container mx-auto px-10 lg:grid-cols-3 lg:gap-2 lg:px-10'>
            
             <div class="card w-11/12 bg-base-100 shadow-xl mb-10">
                 <figure><img src={project1} alt="Shoes" /></figure>
